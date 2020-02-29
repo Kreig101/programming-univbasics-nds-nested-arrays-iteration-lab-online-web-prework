@@ -47,8 +47,8 @@ def total_even_pairs(src)
   
    total = []
    src.each do |num|
-    if #{num[0].even?}  #{num[1].even}
-    total  << num + num
+    if num % 2 == 0 
+      total << num
 end
 total
 end
